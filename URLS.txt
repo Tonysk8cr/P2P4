@@ -1,0 +1,55 @@
+
+
+TEMP Database:
+
+folefe6557@kudimi.com
+Bicis124321324
+UH2025*Bicis124321324
+DBNAME: DbBicisUH
+
+
+
+bin\Release\net8.0\publish\
+TEMP Host
+lidale8533@kudimi.com
+Subdomain: APIBiciAnthony
+
+
+URLS:
+main: 
+http://APIBiciAnthony.somee.com
+
+GET: 
+http://APIBiciAnthony.somee.com/Bicis/List
+
+POST: 
+http://APIBiciAnthony.somee.com/Bicis/Save
+{
+  "codBarra": "Cl01dT4est",
+  "modelo": "Cloud",
+  "annio": 2025,
+  "precioVenta": 10,
+  "proveedor": "UH",
+  "fechaRegistro": "2025-12-11T02:50:46.037Z",
+  "estado": "A"
+}
+
+PUT:
+http://APIBiciAnthony.somee.com/Bicis/Update
+{
+  "codBarra": "Cl01dT4est",
+  "modelo": "Cloud",
+  "annio": 2025,
+  "precioVenta": 10,
+  "proveedor": "UH",
+  "fechaRegistro": "2025-12-11T02:50:46.037Z",
+  "estado": "A"
+}
+
+GET por id:
+http://APIBiciAnthony.somee.com/Bicis/Search
+Key: pCodBarra value: string
+
+Delete:
+http://APIBiciAnthony.somee.com/Bicis/Delete
+Key: tCodBarra value: string

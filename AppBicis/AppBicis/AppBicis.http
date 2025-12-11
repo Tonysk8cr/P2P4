@@ -1,0 +1,6 @@
+@AppBicis_HostAddress = http://localhost:5100
+
+GET {{AppBicis_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
